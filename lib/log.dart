@@ -66,4 +66,10 @@ class Logger implements leisim.Logger {
   static String red(String msg) {
     return '\x1B[31m$msg\x1B[0m';
   }
+  
+  @override
+  bool isClosed() {
+    // TODO: implement isClosed
+    throw UnimplementedError();
+  }
 }
