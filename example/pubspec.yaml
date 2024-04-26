@@ -3,12 +3,11 @@ version: 2.1.1
 homepage: https://github.com/tanapoj/flutter_live_data
 
 environment:
-  sdk: ">=2.6.0 <3.0.0"
+  sdk: '>=3.0.6 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_live_data: 1.0.0
 
 dev_dependencies:
   flutter_test:

@@ -23,13 +23,11 @@ class Logger implements leisim.Logger {
 
   @override
   bool isClosed() {
-    // TODO: implement isClosed
     throw UnimplementedError();
   }
 
   @override
   Future<void> close() {
-    // TODO: implement close
     throw UnimplementedError();
   }
 
@@ -95,4 +93,7 @@ class Logger implements leisim.Logger {
       print('$message');
     }
   }
+  
+  @override
+  Future<void> get init => throw UnimplementedError();
 }
